@@ -1,0 +1,29 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "## Description budget is a budget tracking app that allows offline access and functionality. The user will be able to add expenses and deposits to their budget with or without connection. When entering transactions offline, they should populate the total when brought back online.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-serer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madehopemorr/budget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madehopemorr/budget/issues"
+  },
+  "homepage": "https://github.com/madehopemorr/budget#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.12.0",
+    "morgan": "^1.10.0"
+  }
+}
